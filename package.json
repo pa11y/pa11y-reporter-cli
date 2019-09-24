@@ -35,6 +35,6 @@
     "test": "make ci"
   },
   "files": [
-    "/lib"
+    "lib"
   ]
 }
