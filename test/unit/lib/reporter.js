@@ -48,6 +48,7 @@ describe('lib/reporter', () => {
 					{
 						type: 'error',
 						code: 'mock-code-1',
+						runner: 'axe',
 						message: 'mock-message-1',
 						context: 'mock-context-1',
 						selector: 'mock-selector-1'
@@ -55,6 +56,7 @@ describe('lib/reporter', () => {
 					{
 						type: 'warning',
 						code: 'mock-code-2',
+						runner: 'htmlcs',
 						message: 'mock-message-2',
 						context: 'mock-context-2',
 						selector: 'mock-selector-2'
@@ -62,6 +64,7 @@ describe('lib/reporter', () => {
 					{
 						type: 'notice',
 						code: 'mock-code-3',
+						runner: 'htmlcs',
 						message: 'mock-message-3',
 						context: null,
 						selector: 'mock-selector-3'
@@ -75,17 +78,17 @@ describe('lib/reporter', () => {
 				Results for URL: http://mock-url/
 
 				 • Error: mock-message-1
-				   ├── mock-code-1
+				   ├── axe: mock-code-1
 				   ├── mock-selector-1
 				   └── mock-context-1
 
 				 • Warning: mock-message-2
-				   ├── mock-code-2
+				   ├── htmlcs: mock-code-2
 				   ├── mock-selector-2
 				   └── mock-context-2
 
 				 • Notice: mock-message-3
-				   ├── mock-code-3
+				   ├── htmlcs: mock-code-3
 				   ├── mock-selector-3
 				   └── [no context]
 
