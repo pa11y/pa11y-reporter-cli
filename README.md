@@ -1,5 +1,9 @@
 # Pa11y CLI Reporter
 
+## This repository is now deprecated.
+
+The reporter has been merged into [pa11y/reporters](https://github.com/pa11y/pa11y/tree/master/lib/reporters).
+
 The default command-line reporter for [Pa11y 5.0](https://github.com/pa11y/pa11y).
 
 **:warning: this reporter is built into Pa11y, there's no need to install separately :warning:**
