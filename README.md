@@ -12,8 +12,9 @@ The default command-line reporter for [Pa11y 5.0](https://github.com/pa11y/pa11y
 [![Build status][shield-build]][info-build]
 [![LGPL-3.0 licensed][shield-license]][info-license]
 
-## Table Of Contents
+## Table of contents
 
+* [Table of contents](#table-of-contents)
 * [Requirements](#requirements)
   * [Compatibility chart](#compatibility-chart)
 * [Usage](#usage)
@@ -93,7 +94,7 @@ Copyright &copy; 2017, Team Pa11y
 
 [info-license]: LICENSE
 [info-npm]: https://www.npmjs.com/package/pa11y
-[info-build]: https://travis-ci.org/pa11y/pa11y
+[info-build]: https://github.com/pa11y/pa11y-reporter-cli/actions/workflows/tests.yml
 [shield-license]: https://img.shields.io/badge/license-LGPL%203.0-blue.svg
 [shield-npm]: https://img.shields.io/npm/v/pa11y-reporter-cli.svg
-[shield-build]: https://img.shields.io/travis/pa11y/pa11y-reporter-cli/master.svg
+[shield-build]: https://github.com/pa11y/pa11y-reporter-cli/actions/workflows/tests.yml/badge.svg

@@ -1,6 +1,6 @@
 {
   "name": "pa11y-reporter-cli",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "The default command-line reporter for Pa11y",
   "keywords": [
     "cli",
